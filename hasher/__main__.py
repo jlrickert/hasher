@@ -4,16 +4,6 @@ import sys
 from . import hasher
 
 
-hash_types = [
-    'md5',
-    'sha1',
-    'sha224',
-    'sha256',
-    'sha384',
-    'sha512',
-    
-]
-
 def main():
     file_names = sys.argv[1:]
     for file_name in file_names:
